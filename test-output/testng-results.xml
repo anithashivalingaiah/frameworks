@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-18T23:05:46Z" name="Default suite" finished-at="2020-06-18T23:06:24Z" duration-ms="37852">
+    <groups>
+    </groups>
+    <test started-at="2020-06-18T23:05:46Z" name="Default test" finished-at="2020-06-18T23:06:24Z" duration-ms="37852">
+      <class name="referLaterToFinish.UserMenu_testcase">
+        <test-method is-config="true" signature="setUp2()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:05:46Z" name="setUp2" finished-at="2020-06-18T23:05:46Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp2 -->
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:05:46Z" name="setupSuite" finished-at="2020-06-18T23:05:46Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:05:46Z" name="setUp" finished-at="2020-06-18T23:05:55Z" duration-ms="8589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserMenuLink()[pri:1, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:05:55Z" name="validateUserMenuLink" finished-at="2020-06-18T23:05:58Z" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserMenuLink -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:05:58Z" name="closeApp" finished-at="2020-06-18T23:06:03Z" duration-ms="4326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:03Z" name="tearDownMethod" finished-at="2020-06-18T23:06:03Z" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserMenuLink status=SUCCESS method=UserMenu_testcase.validateUserMenuLink()[pri:1, instance:referLaterToFinish.UserMenu_testcase@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:03Z" name="setUp" finished-at="2020-06-18T23:06:11Z" duration-ms="8292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMyProfileBtn()[pri:2, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:11Z" name="validateMyProfileBtn" finished-at="2020-06-18T23:06:13Z" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfileBtn -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:13Z" name="closeApp" finished-at="2020-06-18T23:06:13Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:13Z" name="tearDownMethod" finished-at="2020-06-18T23:06:14Z" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfileBtn status=SUCCESS method=UserMenu_testcase.validateMyProfileBtn()[pri:2, instance:referLaterToFinish.UserMenu_testcase@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:14Z" name="setUp" finished-at="2020-06-18T23:06:22Z" duration-ms="8034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDevConsoleLink()[pri:4, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:22Z" name="validateDevConsoleLink" finished-at="2020-06-18T23:06:24Z" duration-ms="2308" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[this fails if developer console link is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: this fails if developer console link is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at referLaterToFinish.UserMenu_testcase.validateDevConsoleLink(UserMenu_testcase.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDevConsoleLink -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:24Z" name="closeApp" finished-at="2020-06-18T23:06:24Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:referLaterToFinish.UserMenu_testcase@b9b00e0]" started-at="2020-06-18T23:06:24Z" name="tearDownMethod" finished-at="2020-06-18T23:06:24Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDevConsoleLink status=FAILURE method=UserMenu_testcase.validateDevConsoleLink()[pri:4, instance:referLaterToFinish.UserMenu_testcase@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- referLaterToFinish.UserMenu_testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
