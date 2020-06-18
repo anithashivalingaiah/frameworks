@@ -183,4 +183,4 @@
   2020-06-18-main--DEBUG-freemarker.cache:TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
   2020-06-18-main--DEBUG-freemarker.cache:TemplateLoader.findTemplateSource("Extent.ftl"): Found
   2020-06-18-main--DEBUG-freemarker.cache:Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/pmuniraju/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-  
+  <<Update in Server>>
